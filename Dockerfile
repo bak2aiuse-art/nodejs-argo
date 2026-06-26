@@ -2,7 +2,6 @@ FROM node:alpine3.22
 
 WORKDIR /app
 
-
 COPY index.js index.html package.json ./
 
 EXPOSE 3000/tcp
